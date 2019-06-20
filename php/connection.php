@@ -5,21 +5,21 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Expense Manager</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="../css/connectionStyle.css" rel="stylesheet">
+    <title>Connection-Expense Manager</title>
+    <link href="../css/connection.css" rel="stylesheet">
 </head>
 <body>
-<div id="center">
-    <h1 id="logo">Expense Manager</h1>
+<div>
+    <h1>Expense Manager</h1>
     <h3>Connectez-vous</h3>
     <?php
-        $formConnection= new Formulaire('#','POST');
-        $formConnection->input('text','email','Email','','','',true);
+        $formConnection= new Formulaire('traitement.php','POST');
+        $formConnection->input('email','email','Email','','','input',true);
         $formConnection->br();
-        $formConnection->input('password','mdp','Mot de passe','','','',true);
+        $formConnection->input('password','mdp','Mot de passe','','','input',true);
         $formConnection->br();
-        $formConnection->submit('','Se connecter');
+        $formConnection->texte('<a href="#" id="oublieMdp">Mot de passe oublié ?</a>');
+        $formConnection->submit('','Se connecter','submit');
         echo $formConnection->render()
     ?>
 </div>

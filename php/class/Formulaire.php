@@ -18,7 +18,7 @@
 		
 		public function input($type,$nom,$placeholder=null,$value=null,$id=null, $class=null, $required=false){
 			
-			$typeAutorise=['text','email','password'];
+			$typeAutorise=['text','email','password','email'];
 			
 			if (in_array($type, $typeAutorise)){
 				if ($required){
@@ -85,8 +85,8 @@
         }
 		
 		
-		public function submit($nom, $value){
-			$this->html.="<input type='submit' value='$value' name='$nom'>";
+		public function submit($nom, $value, $id=null, $class=null){
+			$this->html.="<input type='submit' value='$value' name='$nom' id='$id' class='$class'>";
 		}
 		
 		
