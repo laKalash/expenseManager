@@ -8,6 +8,7 @@
 
 body{
     background-color: #0984e3;
+    /*background: -webkit-gradient(linear, left top, left bottom, from(#0984e3), to(#18A3E3)) fixed;*/
     color: white;
     width: 600px;
     height: 400px;
