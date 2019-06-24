@@ -4,8 +4,8 @@ header{
 }
 
 header img{
-    width: 40px;
-    margin: 2.5px;
+    width: 35px;
+    margin: 5px;
 }
 
 body{
@@ -24,7 +24,7 @@ body{
     background-size: 70px;
     background-color: #F4F4F4;
     box-shadow: 0 3px 8px rgba(0,0,0,0.5);
-    border-radius: 100%;
+    border-radius: 50%;
     z-index: 1;
 }
 
@@ -50,6 +50,11 @@ body{
     box-shadow: 0 0 4px rgba(0,0,0,0.5);
     padding: 4px 4px 4px 12px;
     color: black;
+    z-index:1;
+}
+
+.container{
+    margin-top: 10px;
 }
 
 .liens{
@@ -67,6 +72,4 @@ body{
 
 .liens:focus{
     outline: 0;
-    /*border-left: 5px solid #0984e3;*/
-    /*background-position: left bottom;*/
 }

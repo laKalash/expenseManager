@@ -1,3 +1,23 @@
+//sticky recherche
+$(document).ready(function () {
+    let reserchOffset = $('#recherche').offset().top;
+    
+    $('#recherche').wrap('<div class="recherche_placeholder"></div>');
+    $('.recherche_placeholder').height($('#recherche').outerHeight());
+    
+    $(window).scroll(function () {
+        let scrollPos = $(window).scrollTop();
+        
+        if (scrollPos >= (reserchOffset-10)){
+            $('#recherche').css("position","fixed").css('top','0');
+        }
+        else{
+            $('#recherche').css("position","relative")
+        }
+    });
+    
+});
+
 //highlight on click sur .liens
 $(".liens").click(function (e) {
     e.preventDefault();
@@ -13,7 +33,7 @@ $(".liens").click(function (e) {
     });
     
     //redirection
-    let delay = 150;
+    let delay = 100;
     let url = $(this).attr('href');
     console.log(url);
     setTimeout(function(){ window.location = "connection.php"; }, delay);
