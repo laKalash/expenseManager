@@ -22,50 +22,50 @@
 
 <div class="container" id="espace">
     <div class="row">
-        <a href="connection.php" class="col-lg-12 liens">
+        <div class="col-lg-12 liens">
             <h3>Column 1</h3>
             <p>Lorem ipsum dolor..</p>
-        </a>
-        <a href="#" class="col-lg-12 liens">
+        </div>
+        <div class="col-lg-12 liens">
             <h3>Column 2</h3>
             <p>Lorem ipsum dolor..</p>
-        </a>
-        <a href="#" class="col-lg-12 liens">
+        </div>
+        <div class="col-lg-12 liens">
             <h3>Column 3</h3>
             <p>Lorem ipsum dolor..</p>
-        </a>
-        <a href="#" class="col-lg-12 liens">
+        </div>
+        <div class="col-lg-12 liens">
             <h3>Column 4</h3>
             <p>Lorem ipsum dolor..</p>
-        </a>
-        <a href="#" class="col-lg-12 liens">
+        </div>
+        <div class="col-lg-12 liens">
             <h3>Column 5</h3>
             <p>Lorem ipsum dolor..</p>
-        </a>
-        <a href="#" class="col-lg-12 liens">
+        </div>
+        <div class="col-lg-12 liens">
             <h3>Column 6</h3>
             <p>Lorem ipsum dolor..</p>
-        </a>
-        <a href="#" class="col-lg-12 liens">
+        </div>
+        <div class="col-lg-12 liens">
             <h3>Column 7</h3>
             <p>Lorem ipsum dolor..</p>
-        </a>
-        <a href="#" class="col-lg-12 liens">
+        </div>
+        <div class="col-lg-12 liens">
             <h3>Column 8</h3>
             <p>Lorem ipsum dolor..</p>
-        </a>
-        <a href="#" class="col-lg-12 liens">
+        </div>
+        <div class="col-lg-12 liens">
             <h3>Column 9</h3>
             <p>Lorem ipsum dolor..</p>
-        </a>
-        <a href="#" class="col-lg-12 liens">
+        </div>
+        <div class="col-lg-12 liens">
             <h3>Column 10</h3>
             <p>Lorem ipsum dolor..</p>
-        </a>
-        <a href="#" class="col-lg-12 liens">
+        </div>
+        <div class="col-lg-12 liens">
             <h3>Column 11</h3>
             <p>Lorem ipsum dolor..</p>
-        </a>
+        </div>
         
     </div>
 </div>
