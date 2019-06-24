@@ -12,19 +12,15 @@
 <div>
     <h1>Expense Manager</h1>
     <h3>Connectez-vous</h3>
-    <?php
-        $formConnection= new Formulaire('traitement.php','POST');
-        $formConnection->input('email','email','Email','','','input',true);
-        $formConnection->br();
-        $formConnection->input('password','mdp','Mot de passe','','','input',true);
-        $formConnection->br();
-        $formConnection->texte('<a href="#" id="oublieMdp">Mot de passe oublié ?</a>');
-        $formConnection->submit('','Se connecter','submit');
-        echo $formConnection->render()
-    ?>
+    
+    <form action="traitement.php" method="post">
+        <input type="email" class="input" placeholder="Email" autocomplete="new-password" required><br>
+        <input type="password" class="input" placeholder="Mot de passe" autocomplete="new-password" required><br>
+        <input type="submit" value="Se connecter" id="submit">
+    </form>
 </div>
 
-
+<script src="../javascript/connection.js"></script>
 
 </body>
 </html>

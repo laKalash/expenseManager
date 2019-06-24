@@ -10,9 +10,9 @@
 	{
 		private $html ="";
 		
-		public function __construct($action, $method){
+		public function __construct($action, $method, $id = null){
 			
-			$this->html.="<form action='$action' method='$method'>";
+			$this->html.="<form action='$action' method='$method' id='$id'>";
 		}
 		
 		
