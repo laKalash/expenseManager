@@ -1,13 +1,13 @@
 <?php
 session_start();
 
-require_once 'functions/autoload.php'
+require_once 'php/functions/autoload.php';
 //test de positionement dans les modes gestionnaire ou commercial
 //TODO trouver la bonne facons de faire pour le moment un booleen dans la session.
-if($_SESSION['mode']=='commercial'){
+if(isset($_SESSION['mode'])&&$_SESSION['mode']=='commercial'){
     require_once('php/controler/commercial.php');
 }
-elseif($_SESSION['mode']=='gestionnaire'){
+elseif(isset($_SESSION['mode'])&&$_SESSION['mode']=='gestionnaire'){
     require_once ('php/controler/gestionnaire.php');
 }
 else{
