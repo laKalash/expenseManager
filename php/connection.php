@@ -16,6 +16,7 @@
     <form action="traitement.php" method="post" autocomplete="off">
         <input type="email" name="email" class="input" placeholder="Email" required><br>
         <input type="password" name="mdp" class="input" placeholder="Mot de passe" required><br>
+        <a href="#" id="oublieMdp">Mot de passe oublié ?</a><br>
         <input type="submit" value="Se connecter" id="submit">
     </form>
 </div>
