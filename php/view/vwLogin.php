@@ -10,4 +10,4 @@ ob_start();?>
 <h3>Connectez-vous</h3>
 <?= $formConnection->render(); ?>
 <?php $content=ob_get_clean();
-require('php/view/template/page.php');
+require('php/view/template/tmLogin.php');

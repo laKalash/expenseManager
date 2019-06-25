@@ -10,6 +10,7 @@ if(!isset($title))$title='Template html page';
 if(!isset($footer))$footer='<p>Here is the footer</p>';
 if(!isset($header))$header='<p>Here is the header</p>';
 if(!isset($content))$content='<p>Here is the content</p>';
+//TODO Creer chargeur de script et de stylesheet
 ?>
 <!doctype html>
 <html lang="fr">
@@ -19,6 +20,7 @@ if(!isset($content))$content='<p>Here is the content</p>';
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?= $title ?></title>
+
     <link href="css/login.css" rel="stylesheet"/>
 </head>
 <body>
