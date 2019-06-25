@@ -34,7 +34,7 @@ input:focus{
 
 .input{
     margin: 4px;
-    width: 224px;
+    width: 240px;
     padding: 4px 4px 4px 12px;
     box-shadow: 0 0 4px rgba(0,0,0,0.5);
     border: 0;
@@ -70,11 +70,37 @@ input:focus{
         left: 50%;
         margin-top: -200px;
         margin-left: -125px;
+        background-image:url('../images/logonoir.png');
+        background-repeat:no-repeat;
+        background-origin:content-box;
+        background-size:cover;
     }
     
     h1 {
         width: 250px;
         font-size: 50px;
         word-wrap: break-word;
+    }
+}
+@media only screen and (min-width:1024px){
+    body{
+        width:auto;
+        height:auto;
+        position:inherit;
+        display:inherit;
+        margin:0;
+        padding:0;
+        margin-top:25vh;
+    }
+    #logoHeader{
+        background-image:url('../images/logonoir.png');
+        background-size:cover;
+        width:149px;
+        height:155px;
+        margin:auto;
+    }
+    .wrap{
+        width:1024px;
+        margin:auto;
     }
 }
