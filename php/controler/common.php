@@ -18,7 +18,7 @@ function login(){
     $header='';
     $footer='';
     $title='Connection-Expense Manager';
-    $formConnection= new Formulaire('traitement.php','POST');
+    $formConnection= new Formulaire('?action=loginsubmit','POST');
     $formConnection->input('email','email','Email','','','input',true);
     $formConnection->br();
     $formConnection->input('password','mdp','Mot de passe','','','input',true);
