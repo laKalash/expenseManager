@@ -1,5 +1,5 @@
 <?php
-    require_once '../php/functions/autoload.php'
+    require_once 'functions/autoload.php'
 ?>
 
 
