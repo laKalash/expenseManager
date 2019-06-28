@@ -13,5 +13,9 @@
     <header><div id="logoHeader"></div></header>
     <div class="wrap"><?= $content ?></div>
     <footer><?= $footer ?></footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+    <script src="../javascript/connection.js"></script>
 </body>
 </html>
